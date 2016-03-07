@@ -29,9 +29,8 @@ make
 make install
 
 %files
-/usr/lib64/varnish/vmods/libvmod_authorization.a
 /usr/lib64/varnish/vmods/libvmod_authorization.la
 /usr/lib64/varnish/vmods/libvmod_authorization.so
-/usr/lib64/varnish/vmods/libvmod_authorization.so.1
-/usr/lib64/varnish/vmods/libvmod_authorization.so.1.0.0
 /share/man/man3/vmod_authorization.3
+/share/doc/libvmod-example/LICENSE
+/share/doc/libvmod-example/README.rst
