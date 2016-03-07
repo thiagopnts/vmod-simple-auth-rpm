@@ -1,7 +1,6 @@
 rpm:
 	mkdir -p dist/{BUILD,RPMS,SPECS,SOURCES,SRPMS,install}
 	cp nytd-libvmod-simple-auth-1.1.spec dist/SPECS
-	sudo yum-builddep dist/SPECS/nytd-libvmod-simple-auth-1.1.spec
 	wget https://github.com/thiagopnts/vmod-simple-auth/archive/0.0.1.tar.gz -O libvmod-simple-auth.tar.gz
 	cp varnish-3.0.3.tar.gz dist/BUILD
 
