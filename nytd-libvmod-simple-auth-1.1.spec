@@ -1,5 +1,5 @@
 Summary: Varnish Vmod for simple url signing
-Name: libvmod-simple-auth
+Name: libvmod-authorization
 Version: 1.1
 Release: 1
 Packager: NYTimes
