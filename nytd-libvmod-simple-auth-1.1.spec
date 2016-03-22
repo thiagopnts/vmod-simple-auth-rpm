@@ -1,6 +1,6 @@
 Summary: Varnish Vmod for simple url signing
 Name: libvmod-simple-auth
-Version: 1.1
+Version: 1.2
 Release: 1%{?dist}
 Packager: NYTimes
 Group: Development/Libraries
@@ -18,7 +18,7 @@ Varnish Vmod for simple url signing
 
 %prep
 pwd
-%setup -n vmod-simple-auth-0.0.1
+%setup -n vmod-simple-auth-0.0.2
 
 %build
 ./autogen.sh
