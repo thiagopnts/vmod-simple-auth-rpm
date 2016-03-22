@@ -32,5 +32,5 @@ make install
 /usr/lib64/varnish/vmods/libvmod_simple_auth.la
 /usr/lib64/varnish/vmods/libvmod_simple_auth.so
 /share/man/man3/vmod_simple_auth.3
-/share/doc/vmod-simple-auth/LICENSE
-/share/doc/vmod-simple-auth/README.rst
+/share/doc/libvmod-simple-auth/LICENSE
+/share/doc/libvmod-simple-auth/README.rst
