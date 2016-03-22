@@ -1,7 +1,7 @@
 Summary: Varnish Vmod for simple url signing
-Name: libvmod-authorization
+Name: libvmod-simple-auth
 Version: 1.1
-Release: 1
+Release: 1%{?dist}
 Packager: NYTimes
 Group: Development/Libraries
 License: FreeBSD
@@ -29,8 +29,8 @@ make
 make install
 
 %files
-/usr/lib64/varnish/vmods/libvmod_authorization.la
-/usr/lib64/varnish/vmods/libvmod_authorization.so
-/share/man/man3/vmod_authorization.3
-/share/doc/libvmod-example/LICENSE
-/share/doc/libvmod-example/README.rst
+/usr/lib64/varnish/vmods/libvmod_simple_auth.la
+/usr/lib64/varnish/vmods/libvmod_simple_auth.so
+/share/man/man3/vmod_simple_auth.3
+/share/doc/vmod-simple-auth/LICENSE
+/share/doc/vmod-simple-auth/README.rst
